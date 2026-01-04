@@ -3,6 +3,9 @@
 This project focuses on predicting student academic performance using machine learning techniques. 
 Multiple classification models were trained and evaluated to identify the most effective approach.
 
+## 📊🔗 Dataset
+https://www.kaggle.com/datasets/kayhanh/student-performance-1-million
+
 ## 📌 Project Overview
 - Dataset: Student Performance Dataset (Kaggle)
 - Target Variable: Grade
