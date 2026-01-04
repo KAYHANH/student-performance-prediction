@@ -1,57 +1,40 @@
-# Student Performance Prediction
+# 🎓 Student Performance Prediction
 
-This project analyzes student performance using machine learning models. It predicts academic grades based on behavioral and engagement features such as study hours, attendance, and participation.
+This project focuses on predicting student academic performance using machine learning techniques. 
+Multiple classification models were trained and evaluated to identify the most effective approach.
 
 ## 📌 Project Overview
+- Dataset: Student Performance Dataset (Kaggle)
+- Target Variable: Grade
+- Models Used:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - Gradient Boosting
+  - XGBoost
 
-- Exploratory Data Analysis (EDA)  
-- Feature Engineering  
-- Machine Learning Models:  
-  - Logistic Regression  
-  - Decision Tree  
-  - Random Forest  
-  - Gradient Boosting  
-  - XGBoost  
-- Model Comparison – Accuracy & F1 Score  
-- Confusion Matrix & Feature Importance
+## 📊 Project Presentation
+A detailed explanation of data preprocessing, EDA, model building, and evaluation:
 
-## 📊 Results Summary
+🔗 Google Slides (PPT):  
+https://docs.google.com/presentation/d/1ak0ilTJnwNxBwKrompxRujpiIBN79B-oO9yLjdahXcs/edit?usp=sharing
 
-| Model | Accuracy | F1 Score |
-|-------|----------|----------|
-| Logistic Regression | ~0.70 | ~0.69 |
-| Decision Tree | ~0.61 | ~0.60 |
-| Random Forest | ~0.65 | ~0.64 |
-| Gradient Boosting | ~0.70 | ~0.69 |
-| XGBoost | ~0.70 | ~0.68 |
+## 📈 Results Summary
+- Best Model: XGBoost / Gradient Boosting
+- Accuracy: ~69.5%
+- Evaluation Metrics: Accuracy, F1-Score, Confusion Matrix
 
-## 📁 Files in this Repository
+## 🛠 Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib, Seaborn
 
-- `notebook.ipynb` – Main Jupyter notebook  
-- `requirements.txt` – Required Python libraries  
-- `slides.pdf` – Project presentation  
-- `plots/` – Saved plot images  
-- `README.md` – Project overview
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/yourusername/student-performance-prediction.git
-cd student-performance-prediction
-pip install -r requirements.txt
-```
-
-## 📌 Usage
-
-Open the notebook and run all cells:
-
-```bash
-jupyter notebook notebook.ipynb
-```
+## 📂 Repository Structure
+- `student-performance-predictions.ipynb`
+- `README.md`
+- `requirements.txt`
 
 ## 📌 Conclusion
-
-Behavioral patterns can reasonably predict student performance. Future improvements include adding socio-economic data and advanced models like XGBoost with hyperparameter tuning.
-
----
-
+Ensemble learning methods performed better than baseline models, showing improved generalization in predicting student grades.
