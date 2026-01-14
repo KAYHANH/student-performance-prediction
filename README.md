@@ -66,5 +66,20 @@ Exploratory Data Analysis was conducted to understand feature distributions, ide
 
 ---
 
-## 📂 Repository Structure
+
+---
+
+## 📑 Project Presentation
+
+A detailed presentation covering data preprocessing, EDA, model building, and evaluation is available below:
+
+🔗 Google Slides (PPT):  
+https://docs.google.com/presentation/d/1ak0ilTJnwNxBwKrompxRujpiIBN79B-oO9yLjdahXcs/edit?usp=sharing
+
+---
+
+## 📌 Conclusion
+
+The results show that ensemble learning methods, particularly Gradient Boosting and XGBoost, outperform baseline classification models in predicting student grades. This project highlights the effectiveness of machine learning techniques in education analytics and academic performance prediction.
+
 
