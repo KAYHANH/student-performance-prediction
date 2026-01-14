@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="SURE ProEd Logo" width="150"/>
+  <img src="523903834-88fa5098-24b1-4ece-87df-95eb920ea721.png" alt="SURE ProEd Logo" width="150"/>
 </p>
 
 <h1 align="center">SURE ProEd (formerly SURE Trust)</h1>
